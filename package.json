@@ -21,5 +21,17 @@
 	},
 	"devDependencies": {
 		"@architect/syntaxes": "git+https://github.com/architect/syntaxes.git"
-	}
+	},
+  "keywords": [
+    "aws",
+    "arc",
+    "architect",
+    "serverless",
+    "cloud",
+    "app.arc",
+    ".arc",
+    "prefs.arc",
+    "preferences.arc",
+    "config.arc"
+  ]
 }
