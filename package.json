@@ -1,0 +1,25 @@
+{
+	"name": "language-arc",
+	"version": "0.0.0",
+	"description": "Official Atom package for Architect, including syntax highlighting for the Architect file format (app.arc, .arc, config.arc, and prefs.arc)",
+	"author": "Ryan Block <hello@ryanblock.com>",
+	"license": "Apache-2.0",
+	"homepage": "https://arc.codes",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/architect/atom-package.git"
+	},
+	"bugs": {
+		"url": "https://github.com/architect/atom-package/issues"
+	},
+	"scripts": {
+		"build": "rm grammars/arc.json && cp node_modules/@architect/syntaxes/arc-textmate.json ./grammars/arc.json",
+		"lint": "eslint . --fix"
+	},
+	"engines": {
+		"atom": ">=1.0.0"
+	},
+	"devDependencies": {
+		"@architect/syntaxes": "git+https://github.com/architect/syntaxes.git"
+	}
+}
