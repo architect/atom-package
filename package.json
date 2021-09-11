@@ -1,6 +1,6 @@
 {
 	"name": "language-architect",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Official Atom package for Architect, including syntax highlighting for the Architect file format (app.arc, .arc, config.arc, and prefs.arc)",
 	"author": "Ryan Block <hello@ryanblock.com>",
 	"license": "Apache-2.0",
@@ -22,14 +22,14 @@
 	"devDependencies": {
 		"@architect/syntaxes": "git+https://github.com/architect/syntaxes.git"
 	},
-  "keywords": [
+	"keywords": [
 		"language",
 		"grammar",
 		"architect",
-    "serverless",
+		"serverless",
 		"iac",
 		"infrastructure-as-code",
-    "app.arc",
-    ".arc"
-  ]
+		"app.arc",
+		".arc"
+	]
 }
