@@ -13,7 +13,7 @@
 		"url": "https://github.com/architect/atom-package/issues"
 	},
 	"scripts": {
-		"build": "rm grammars/arc.json && cp node_modules/@architect/syntaxes/arc-textmate.json ./grammars/arc.json",
+		"build": "rm -rf node_modules/@architect grammars/arc.json && npm i && cp node_modules/@architect/syntaxes/arc-textmate.json ./grammars/arc.json",
 		"lint": "eslint . --fix"
 	},
 	"engines": {
